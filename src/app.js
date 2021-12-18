@@ -7,8 +7,8 @@ app.use(express.json());
 
 app.use('/artist', artistRouter);
 
-app.get('/', (req, res) => {
-  res.send('Welcome to my Music Library app');
-});
+// app.get('/', (req, res) => {
+//   res.send('Welcome to my Music Library app');
+// });
 
 module.exports = app;
