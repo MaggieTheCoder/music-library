@@ -1,16 +1,18 @@
-Music Library API
-Backend Module for Manchester Codes
-Creating a Music Library API which works in conjunction with MySQL. Making use of RESTful standards to allow CRUD (Create, Read, Update and Delete) operations.
+<h1>Music Library API</h1>
+<h2>Backend Module for Manchester Codes<h2>
 
-API built using Node.js and Express to integrate MySQL functionality. Test Driven Development using Mocha testing framework.
+<p?>Creating a Music Library API which works in conjunction with MySQL. Making use of RESTful standards to allow CRUD (Create, Read, Update and Delete) operations.
 
-HTTP Routes
-Artist
-Create Artist - POST to '/artist'
-Read all Artists - GET from '/artist'
-Read one Artist ID - GET from '/artist/:id'
-Update Artist - PATCH '/artist/:id'
-Delete Artist - DELETE '/artist/:id'
+API built using Node.js and Express to integrate MySQL functionality. Test Driven Development using Mocha testing framework.</p>
+
+<h2>HTTP Routes</h2>
+<h3>Artist</h3>
+<ul>
+<li>Create Artist - POST to '/artist'</li>
+<li>Read all Artists - GET from '/artist'</li>
+<li>Read one Artist ID - GET from '/artist/:id'</li>
+<li>Update Artist - PATCH '/artist/:id'</li>
+<li>Delete Artist - DELETE '/artist/:id'</li></ul>
 
 Instructions
 Pull and run a new MySQL Docker image docker run -d -p 3307:3306 --name music_library_mysql -e MYSQL_ROOT_PASSWORD=password mysql - make sure to change MYSQL_ROOT_PASSWORD to something more appropriate. This will be used in .env file.
